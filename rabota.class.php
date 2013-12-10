@@ -1,9 +1,7 @@
 <?php
 
 /**
- * Description of hh
- *
- * @author DaaGER
+ * Модуль для загрузки/добавления/редактирования вакансий
  */
 class Rabota {
 	/* @var $shab Shab */
