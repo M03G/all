@@ -169,19 +169,19 @@ public class test {
             		case "^" : 	result.push(Math.pow(op1, op2));
             		break;
             		case "sin" : 	if (op1 != 0) {
-				                		result.push(op1);
-				                	}
-            						result.push(Math.sin(op2));
+						result.push(op1);
+					}
+					result.push(Math.sin(op2));
             		break;
             		case "cos" : 	if (op1 != 0) {
-				                		result.push(op1);
-				                	}
-				                	result.push(Math.cos(op2));
+						result.push(op1);
+					}
+					result.push(Math.cos(op2));
             		break;
             		case "exp" : 	if (op1 != 0) {
-				                		result.push(op1);
-				                	}
-				                	result.push(Math.exp(op2));
+						result.push(op1);
+					}
+					result.push(Math.exp(op2));
             		break;
             		default: 	System.out.println("Error!");
             	}                
